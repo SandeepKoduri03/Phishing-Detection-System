@@ -1,64 +1,12 @@
-# Phishing URL Detector
-## Instructions to run the extension and API
-The "Web_Extension_API" folder is a standalone project consisting of two main components: the API Flask server and the web extension.
+          In today's digital landscape, the protection of users' private information has become increasingly critical due to the rampant rise of cyber threats. Phishing attacks, which involve the creation of malicious replicas of legitimate web pages, pose a significant risk to billions of users globally. These attacks not only compromise sensitive information, such as passwords and PINs, but also undermine user trust in online services. Traditional security measures often struggle with latency and accuracy, leaving users vulnerable to these sophisticated threats.
 
-### Step 1:
-Cloning the "Web_Extension_API" folder and then creating an virtual environment.
-Follow the commands :
-```py
-pip install virtualenv
-```
-```py
-python3 -m venv env
-```
-For Windows : 
-```py
-env/Scripts/activate
-```
-For Mac : 
-```py
-source env/bin/activate
-```
-Installing the dependencies :
-```py
-pip install -r requirements.txt
-```
-### Step 2:
-Running the flask API.
-```py
-python3 app.py
-```
-> [!CAUTION]
-> Running the code might take some time.
-Wait until the follwing message appears in the terminal:
+            Recognizing this urgent need for enhanced security, we developed a client-side defense mechanism that leverages machine learning techniques to detect spoofed web pages effectively. Our innovative approach culminated in the creation of PhishCatcher, a Google Chrome extension designed to classify URLs as suspicious or trustworthy based on various web features. 
 
-<img width="923" alt="image" src="https://github.com/user-attachments/assets/39f64355-dbf2-4474-a748-087ebf61b6ae">
+           The motivation behind PhishCatcher is rooted in the necessity to provide users with a reliable tool that not only safeguards their personal information but also maintains an exceptional user experience through minimal latency. With an impressive accuracy and precision of 98.5%, our solution stands out as a formidable ally in the fight against phishing. Additionally, with an average response time of just 62.5 milliseconds, PhishCatcher ensures that users can browse the web safely without compromising on speed or efficiency.
 
-### Step 3:
-Loading the extension in the browser. <br>
-i. Go to browser extensions : <br>
-for chrome :
-```js
-chrome://extensions/ 
-```
-for brave :
-```js
-brave://extensions/
-```
-ii. Click on "Load Unpacked"
-<img width="958" alt="image" src="https://github.com/user-attachments/assets/574ae235-8418-411e-ba48-f1f94d7d06b6">
+          Through this project, we aim to empower users with the knowledge and tools to navigate the online world securely, fostering a safer digital environment for everyone. Our commitment to advancing cyber security drives us to continually refine and enhance our methods, making a meaningful impact in the battle against phishing and web spoofing.
 
-iii. Select the "Web_Extension_API" folder
-<img width="958" alt="image" src="https://github.com/user-attachments/assets/8d437888-94c1-4b49-a0d8-bf7939d87148">
 
-iv. The extension will appear here
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/aa8dad67-30bb-4684-8484-67c926d04293">
-
-v. Click on the extension from quick access
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/8cc1356f-07d1-4171-83f7-bb62e7592b39">
-
-vi. Paste any url and then click predict
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/e77207ce-0e0e-4825-b59d-8b4c8965e61d">
 
 
 
