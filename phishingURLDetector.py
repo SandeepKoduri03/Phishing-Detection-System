@@ -21,8 +21,6 @@ Benign_URLs = df[df.type == 'benign']
 Defacement_URLs = df[df.type == 'defacement']
 Malware_URLs = df[df.type == 'malware']
 
-
-# Feature Engineering
 def contains_ip_address(url):
     match = re.search(
         '(([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.'
