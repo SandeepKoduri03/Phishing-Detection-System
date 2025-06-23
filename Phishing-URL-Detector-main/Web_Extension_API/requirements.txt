@@ -1,0 +1,9 @@
+pandas
+matplotlib
+re
+googlesearch
+urllib.parse
+scikit-learn
+tkinter
+flask
+flask-cors
